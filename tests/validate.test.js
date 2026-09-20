@@ -16,6 +16,6 @@ describe("validateTask (unit)", () => {
   });
 
   test("rejects a non-string title", () => {
-    expect(validateTask({ title: 42 }).valid).toBe(false);
+    xpect(validateTask({ title: 42 }).valid).toBe(false);
   });
 });
